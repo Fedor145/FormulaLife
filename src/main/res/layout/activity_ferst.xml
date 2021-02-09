@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Введите свои данные. Мы подберем режим тренировок специально для вас."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:paddingLeft="18dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_vvod1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="@string/id1"
+        android:inputType="number"
+        android:padding="10dp"
+
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_vvod2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:hint="@string/id2"
+        android:inputType="number"
+        android:padding="10dp"
+
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_vvod3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:hint="@string/id3"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_vvod4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:hint="@string/grud"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="15sp"
+        />
+
+    <CheckBox
+        android:id="@+id/pol1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/pol2" />
+
+    <CheckBox
+        android:id="@+id/pol2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/pol1" />
+
+    <CheckBox
+        android:id="@+id/zal"
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/dom" />
+
+    <CheckBox
+        android:id="@+id/dom"
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/zal" />
+
+    <Button
+        android:id="@+id/b_knopka"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="@string/search"
+        android:background="@drawable/fileds"/>
+
+</LinearLayout>

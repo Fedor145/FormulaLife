@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+     >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваша тренировка."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Activity Two"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ваш режим питания."
+    android:textSize="30sp"
+    android:textColor="@color/colorPrimaryDark"
+   android:paddingLeft="30dp"
+    />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingLeft="5dp"/>
+        <Button
+            android:id="@+id/sovet"
+            android:layout_width="90sp"
+            android:layout_height="75sp"
+            android:layout_gravity="end"
+
+            android:background="@drawable/fileds"
+            android:text="Советы"
+            android:textSize="15sp"
+            />
+        />
+
+</LinearLayout>
+</ScrollView>
