@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
-        android:text="Введите свои данные. Мы подберем режим тренировок специально для вас.1234"
+        android:text="Введите свои данные. Мы подберем режим тренировок специально для вас."
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:paddingLeft="18dp"
